@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+* h3 {
+  color: white;
+}
+
+.main__login {
+  height: 600px;
+  background: linear-gradient(45deg, blue, orange);
+}
+
+.main__login .login__text {
+  text-align: center;
+  padding: 20px;
+  color: #9d9dff;
+  font-size: 30px;
+}
+
+.main__login .login__inp {
+  width: 300px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 30px 30px 30px;
+      grid-template-rows: 30px 30px 30px;
+  grid-gap: 20px;
+  margin: 5% 39%;
+}
+
+.main__login .login__inp input, .main__login .login__inp button {
+  padding: 0 20px;
+  border-radius: 20px;
+  text-align: center;
+  color: darkmagenta;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.main__login .login__inp input:focus {
+  background-color: darkblue;
+}
+
+.main__login .login__inp button:active {
+  background-color: orange;
+}
+/*# sourceMappingURL=Login.css.map */
